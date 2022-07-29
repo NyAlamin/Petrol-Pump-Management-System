@@ -1,0 +1,11 @@
+package Interfaces;
+import java.lang.*;
+import Classes.Employee;
+
+public interface EmployeeOperations
+{
+	public void insertEmployee(Employee e);
+	public void removeEmployee(Employee e);
+	Employee searchEmployee(String empId);
+	public void showAllEmployees();
+}

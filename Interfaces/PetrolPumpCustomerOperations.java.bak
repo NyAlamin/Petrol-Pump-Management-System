@@ -1,0 +1,18 @@
+package Interfaces;
+import java.lang.*;
+import Classes.Customer;
+
+import java.lang.*;
+
+
+public interface PetrolPumpCustomerOperations
+{
+	public void insertCustomer(Customer c);
+	public void removeCustomer(Customer c);
+	Customer searchCustomer(String TranNo);
+	public void showAllCustomers();
+}
+
+
+
+
